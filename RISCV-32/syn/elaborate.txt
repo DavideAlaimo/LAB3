@@ -1,0 +1,133 @@
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine RISC_V line 311 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    OUT_PC_1_reg     | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 331 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+=================================================================================
+|     Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=================================================================================
+|       RD_1_reg        | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|     OPCODE_1_reg      | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   ADD_REG_WRITE_reg   | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|     OUT_PC_2_reg      | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|  OUT_REG_FILE1_1_reg  | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|  OUT_REG_FILE2_1_reg  | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|   OUT_IMM_GEN_1_reg   | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+| OUT_INSTR_FUNCT_1_reg | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|       RS1_1_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|       RS2_1_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+=================================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 366 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+================================================================================
+|    Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+| ADD_REG_WRITE_1_reg  | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+| OUT_ADD_BRANCH_1_reg | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|  OUT_ZERO_ALU_1_reg  | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| OUT_RESULT_ALU_1_reg | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|   RD_2_EX_MEM_reg    | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+================================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 381 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===================================================================================
+|      Register Name      |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===================================================================================
+|   ADD_REG_WRITE_2_reg   | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+| DATA_OUT_MEM_DATA_1_reg | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|  OUT_RESULT_ALU_2_reg   | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|     RD_3_MEM_WB_reg     | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===================================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 397 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     BRANCH1_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    MEM_READ1_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   MEM_WRITE1_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   MEM_TO_REG1_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     ALUop1_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   REG_WRITE1_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| MUX_TO_BRANCH1_reg  | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    ALU_src11_reg    | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|    ALU_src21_reg    | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 415 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     BRANCH2_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   MEM_TO_REG2_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   REG_WRITE2_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| MUX_TO_BRANCH2_reg  | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 440 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   MEM_TO_REG3_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   REG_WRITE3_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Warning: Overwriting design file '/home/isa12_2021_2022/Desktop/Lab3_parte1/syn/RISC_V.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'RISC_V'.
+Information: Building the design 'MUX_2TO1' instantiated from design 'RISC_V' with
+	the parameters "N=64". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'Adder' instantiated from design 'RISC_V' with
+	the parameters "N=64". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'MUX_5TO1'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'MUX_2TO1' instantiated from design 'RISC_V' with
+	the parameters "N=3". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'Register_N' instantiated from design 'RISC_V' with
+	the parameters "N=64". (HDL-193)
+
+Inferred memory devices in process
+	in routine Register_N_N64 line 13 in file
+		'../src/Register_N.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      DATA_reg       | Flip-flop |  64   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    DATA_OUT_reg     | Flip-flop |  64   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Warning: Design 'RISC_V' has '7' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1

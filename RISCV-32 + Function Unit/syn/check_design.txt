@@ -1,0 +1,970 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP4
+Date:        Fri Jan 28 00:57:22 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    176
+    Unconnected ports (LINT-28)                                   140
+    Shorted outputs (LINT-31)                                      34
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                             387
+    Connected to power or ground (LINT-32)                        377
+    Nets connected to multiple pins on same cell (LINT-33)         10
+--------------------------------------------------------------------------------
+
+Warning: In design 'Adder_N64_1', port 'RST' is not connected to any nets. (LINT-28)
+Warning: In design 'AluControl', port 'INSTR30' is not connected to any nets. (LINT-28)
+Warning: In design 'Adder_N64_0', port 'RST' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[62]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[61]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[60]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[59]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[58]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[57]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[56]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[55]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[54]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[53]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[52]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[51]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[50]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[49]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[48]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[47]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[46]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[45]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[44]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[43]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[42]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[41]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[40]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[39]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[38]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[37]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[36]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[35]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[34]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[33]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[32]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'DIFF[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_1', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'A[63]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[63]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[62]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[61]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[60]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[59]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[58]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[57]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[56]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[55]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[54]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[53]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[52]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[51]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[50]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[49]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[48]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[47]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[46]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[45]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[44]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[43]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[42]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[41]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[40]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[39]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[38]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[37]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[36]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[35]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[34]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[33]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[32]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'FunctionUnit_DW01_add_1', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Adder_N64_1_DW01_add_1', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Adder_N64_1_DW01_add_1', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Adder_N64_0_DW01_add_1', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Adder_N64_0_DW01_add_1', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[62]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[61]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[60]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[59]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[58]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[57]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[56]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[55]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[54]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[63]' is connected directly to output port 'Instruction_64[53]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[48]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[47]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[45]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[49]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[43]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[51]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[50]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[46]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[44]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[52]' is connected directly to output port 'Instruction_64[42]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[40]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[36]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[34]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[38]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[32]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[39]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[37]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[35]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[33]'. (LINT-31)
+Warning: In design 'ImmediateGenerator', output port 'Instruction_64[41]' is connected directly to output port 'Instruction_64[31]'. (LINT-31)
+Warning: In design 'CONTROL', output port 'MemRead' is connected directly to output port 'MemToReg'. (LINT-31)
+Warning: In design 'CONTROL', output port 'ALUsrc1[2]' is connected directly to output port 'ALUsrc2[2]'. (LINT-31)
+Warning: In design 'ForwardingUnit', output port 'ForwardA[1]' is connected directly to output port 'ForwardA[0]'. (LINT-31)
+Warning: In design 'ForwardingUnit', output port 'ForwardB[1]' is connected directly to output port 'ForwardB[0]'. (LINT-31)
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[63]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[62]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[61]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[60]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[59]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[58]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[57]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[56]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[55]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[54]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[53]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[52]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[51]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[50]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[49]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[48]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[47]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[46]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[45]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[44]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[43]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[42]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[41]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[40]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[39]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[38]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[37]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[36]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[35]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[34]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[33]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[32]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[31]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[30]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[29]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[28]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[27]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[26]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[25]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[24]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[23]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[22]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[21]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[20]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[19]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[18]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[17]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[16]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[15]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[14]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[13]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[12]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[11]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[10]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[9]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[8]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[7]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[6]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[5]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[4]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[3]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[2]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[1]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxPC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[0]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[63]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[62]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[61]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[60]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[59]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[58]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[57]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[56]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[55]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[54]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[53]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[52]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[51]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[50]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[49]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[48]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[47]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[46]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[45]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[44]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[43]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[42]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[41]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[40]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[39]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[38]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[37]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[36]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[35]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[34]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[33]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[32]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[31]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[30]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[29]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[28]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[27]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[26]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[25]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[24]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[23]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[22]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[21]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[20]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[19]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[18]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[17]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[16]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[15]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[14]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[13]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[12]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[11]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[10]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[9]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[8]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[7]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[6]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[5]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[4]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[3]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[2]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[1]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_SEQUENTIAL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[0]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'ADDER_JUMP' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[0]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[31]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[30]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[29]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[28]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[27]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[26]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[25]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[24]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[23]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[22]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[21]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[20]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[19]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[18]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[17]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[16]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[15]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[14]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[13]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[12]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[11]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[10]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[9]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[8]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[7]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[6]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[5]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[4]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[3]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[2]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[1]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'MuxINSTR' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[0]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[13]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[12]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[11]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[10]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[9]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[8]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[7]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[6]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[5]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[4]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[3]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[2]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[1]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN1[0]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[5]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BUBBLE_OR_NOT' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[2]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'MUX_BRANCH' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'IN2[0]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[63]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[62]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[61]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[60]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[59]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[58]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[57]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[56]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[55]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[54]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[53]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[52]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[51]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[50]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[49]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[48]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[47]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[46]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[45]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[44]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[43]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[42]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[41]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[40]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[39]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[38]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[37]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[36]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[35]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[34]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[33]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[32]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[31]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[30]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[29]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[28]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[27]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[26]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[25]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[24]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[23]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[22]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[21]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[20]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[19]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[18]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[17]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[16]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[15]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[14]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[13]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[12]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[11]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[10]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[9]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[8]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[7]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[6]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[5]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[4]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[3]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[2]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[1]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[0]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'EN' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[63]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[62]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[61]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[60]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[59]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[58]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[57]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[56]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[55]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[54]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[53]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[52]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[51]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[50]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[49]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[48]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[47]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[46]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[45]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[44]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[43]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[42]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[41]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[40]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[39]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[38]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[37]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[36]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[35]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[34]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[33]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[32]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[31]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[30]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[29]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[28]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[27]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[26]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[25]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[24]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[23]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[22]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[21]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[20]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[19]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[18]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[17]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[16]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[15]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[14]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[13]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[12]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[11]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[10]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[9]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[8]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[7]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[6]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[5]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[4]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[3]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[2]' is connected to logic 1. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[1]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'DATA_IN[0]' is connected to logic 0. 
+Warning: In design 'RISC_V', a pin on submodule 'REG_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'EN' is connected to logic 1. 
+Warning: In design 'Adder_N64_1', a pin on submodule 'add_17' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'sub_58' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'r298' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[63]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[63]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[62]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[61]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[60]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[59]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[58]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[57]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[56]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[55]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[54]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[53]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[52]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[51]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[50]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[49]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[48]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[47]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[46]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[45]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[44]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[43]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[42]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[41]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[40]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[39]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[38]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[37]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[36]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[35]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[34]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[33]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[32]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[31]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[30]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[29]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[28]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[27]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[26]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[25]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[24]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[23]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[22]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[21]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[20]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[19]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[18]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[17]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[16]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[15]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[14]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[13]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[12]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[11]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[10]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[9]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[7]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[2]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'FunctionUnit', a pin on submodule 'add_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'Adder_N64_0', a pin on submodule 'add_17' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'RISC_V', the same net is connected to more than one pin on submodule 'MuxPC'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'IN2[63]', 'IN2[62]'', 'IN2[61]', 'IN2[60]', 'IN2[59]', 'IN2[58]', 'IN2[57]', 'IN2[56]', 'IN2[55]', 'IN2[54]', 'IN2[53]', 'IN2[52]', 'IN2[51]', 'IN2[50]', 'IN2[49]', 'IN2[48]', 'IN2[47]', 'IN2[46]', 'IN2[45]', 'IN2[44]', 'IN2[43]', 'IN2[42]', 'IN2[41]', 'IN2[40]', 'IN2[39]', 'IN2[38]', 'IN2[37]', 'IN2[36]', 'IN2[35]', 'IN2[34]', 'IN2[33]', 'IN2[32]', 'IN2[31]', 'IN2[30]', 'IN2[29]', 'IN2[28]', 'IN2[27]', 'IN2[26]', 'IN2[25]', 'IN2[24]', 'IN2[23]', 'IN2[21]', 'IN2[20]', 'IN2[19]', 'IN2[18]', 'IN2[17]', 'IN2[16]', 'IN2[15]', 'IN2[14]', 'IN2[13]', 'IN2[12]', 'IN2[11]', 'IN2[10]', 'IN2[9]', 'IN2[8]', 'IN2[7]', 'IN2[5]', 'IN2[3]', 'IN2[1]', 'IN2[0]'.
+Warning: In design 'RISC_V', the same net is connected to more than one pin on submodule 'MuxPC'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'IN2[22]', 'IN2[6]'', 'IN2[4]', 'IN2[2]'.
+Warning: In design 'RISC_V', the same net is connected to more than one pin on submodule 'ADDER_SEQUENTIAL'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'IN2[63]', 'IN2[62]'', 'IN2[61]', 'IN2[60]', 'IN2[59]', 'IN2[58]', 'IN2[57]', 'IN2[56]', 'IN2[55]', 'IN2[54]', 'IN2[53]', 'IN2[52]', 'IN2[51]', 'IN2[50]', 'IN2[49]', 'IN2[48]', 'IN2[47]', 'IN2[46]', 'IN2[45]', 'IN2[44]', 'IN2[43]', 'IN2[42]', 'IN2[41]', 'IN2[40]', 'IN2[39]', 'IN2[38]', 'IN2[37]', 'IN2[36]', 'IN2[35]', 'IN2[34]', 'IN2[33]', 'IN2[32]', 'IN2[31]', 'IN2[30]', 'IN2[29]', 'IN2[28]', 'IN2[27]', 'IN2[26]', 'IN2[25]', 'IN2[24]', 'IN2[23]', 'IN2[22]', 'IN2[21]', 'IN2[20]', 'IN2[19]', 'IN2[18]', 'IN2[17]', 'IN2[16]', 'IN2[15]', 'IN2[14]', 'IN2[13]', 'IN2[12]', 'IN2[11]', 'IN2[10]', 'IN2[9]', 'IN2[8]', 'IN2[7]', 'IN2[6]', 'IN2[5]', 'IN2[4]', 'IN2[3]', 'IN2[1]', 'IN2[0]'.
+Warning: In design 'RISC_V', the same net is connected to more than one pin on submodule 'MuxINSTR'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'IN2[31]', 'IN2[30]'', 'IN2[29]', 'IN2[28]', 'IN2[27]', 'IN2[26]', 'IN2[25]', 'IN2[24]', 'IN2[23]', 'IN2[22]', 'IN2[21]', 'IN2[20]', 'IN2[19]', 'IN2[18]', 'IN2[17]', 'IN2[16]', 'IN2[15]', 'IN2[14]', 'IN2[13]', 'IN2[12]', 'IN2[11]', 'IN2[10]', 'IN2[9]', 'IN2[8]', 'IN2[7]', 'IN2[6]', 'IN2[5]', 'IN2[3]', 'IN2[2]'.
+Warning: In design 'RISC_V', the same net is connected to more than one pin on submodule 'MuxINSTR'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'IN2[4]', 'IN2[1]'', 'IN2[0]'.
+Warning: In design 'RISC_V', the same net is connected to more than one pin on submodule 'MUX_BUBBLE_OR_NOT'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'IN1[13]', 'IN1[12]'', 'IN1[11]', 'IN1[10]', 'IN1[9]', 'IN1[8]', 'IN1[7]', 'IN1[6]', 'IN1[5]', 'IN1[4]', 'IN1[3]', 'IN1[2]', 'IN1[1]', 'IN1[0]'.
+Warning: In design 'RISC_V', the same net is connected to more than one pin on submodule 'REG_0'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'DATA_IN[63]', 'DATA_IN[62]'', 'DATA_IN[61]', 'DATA_IN[60]', 'DATA_IN[59]', 'DATA_IN[58]', 'DATA_IN[57]', 'DATA_IN[56]', 'DATA_IN[55]', 'DATA_IN[54]', 'DATA_IN[53]', 'DATA_IN[52]', 'DATA_IN[51]', 'DATA_IN[50]', 'DATA_IN[49]', 'DATA_IN[48]', 'DATA_IN[47]', 'DATA_IN[46]', 'DATA_IN[45]', 'DATA_IN[44]', 'DATA_IN[43]', 'DATA_IN[42]', 'DATA_IN[41]', 'DATA_IN[40]', 'DATA_IN[39]', 'DATA_IN[38]', 'DATA_IN[37]', 'DATA_IN[36]', 'DATA_IN[35]', 'DATA_IN[34]', 'DATA_IN[33]', 'DATA_IN[32]', 'DATA_IN[31]', 'DATA_IN[30]', 'DATA_IN[29]', 'DATA_IN[28]', 'DATA_IN[27]', 'DATA_IN[26]', 'DATA_IN[25]', 'DATA_IN[24]', 'DATA_IN[23]', 'DATA_IN[22]', 'DATA_IN[21]', 'DATA_IN[20]', 'DATA_IN[19]', 'DATA_IN[18]', 'DATA_IN[17]', 'DATA_IN[16]', 'DATA_IN[15]', 'DATA_IN[14]', 'DATA_IN[13]', 'DATA_IN[12]', 'DATA_IN[11]', 'DATA_IN[10]', 'DATA_IN[9]', 'DATA_IN[8]', 'DATA_IN[7]', 'DATA_IN[6]', 'DATA_IN[5]', 'DATA_IN[4]', 'DATA_IN[3]', 'DATA_IN[2]', 'DATA_IN[1]', 'DATA_IN[0]'.
+Warning: In design 'RISC_V', the same net is connected to more than one pin on submodule 'REG_4'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'DATA_IN[63]', 'DATA_IN[62]'', 'DATA_IN[61]', 'DATA_IN[60]', 'DATA_IN[59]', 'DATA_IN[58]', 'DATA_IN[57]', 'DATA_IN[56]', 'DATA_IN[55]', 'DATA_IN[54]', 'DATA_IN[53]', 'DATA_IN[52]', 'DATA_IN[51]', 'DATA_IN[50]', 'DATA_IN[49]', 'DATA_IN[48]', 'DATA_IN[47]', 'DATA_IN[46]', 'DATA_IN[45]', 'DATA_IN[44]', 'DATA_IN[43]', 'DATA_IN[42]', 'DATA_IN[41]', 'DATA_IN[40]', 'DATA_IN[39]', 'DATA_IN[38]', 'DATA_IN[37]', 'DATA_IN[36]', 'DATA_IN[35]', 'DATA_IN[34]', 'DATA_IN[33]', 'DATA_IN[32]', 'DATA_IN[31]', 'DATA_IN[30]', 'DATA_IN[29]', 'DATA_IN[28]', 'DATA_IN[27]', 'DATA_IN[26]', 'DATA_IN[25]', 'DATA_IN[24]', 'DATA_IN[23]', 'DATA_IN[22]', 'DATA_IN[21]', 'DATA_IN[20]', 'DATA_IN[19]', 'DATA_IN[18]', 'DATA_IN[17]', 'DATA_IN[16]', 'DATA_IN[15]', 'DATA_IN[14]', 'DATA_IN[13]', 'DATA_IN[12]', 'DATA_IN[11]', 'DATA_IN[10]', 'DATA_IN[9]', 'DATA_IN[8]', 'DATA_IN[7]', 'DATA_IN[6]', 'DATA_IN[5]', 'DATA_IN[4]', 'DATA_IN[3]', 'DATA_IN[1]', 'DATA_IN[0]'.
+Warning: In design 'RISC_V', the same net is connected to more than one pin on submodule 'REG_4'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'DATA_IN[2]', 'EN''.
+Warning: In design 'FunctionUnit', the same net is connected to more than one pin on submodule 'add_30'. (LINT-33)
+   Net 'n3' is connected to pins 'A[63]', 'B[63]'', 'B[62]', 'B[61]', 'B[60]', 'B[59]', 'B[58]', 'B[57]', 'B[56]', 'B[55]', 'B[54]', 'B[53]', 'B[52]', 'B[51]', 'B[50]', 'B[49]', 'B[48]', 'B[47]', 'B[46]', 'B[45]', 'B[44]', 'B[43]', 'B[42]', 'B[41]', 'B[40]', 'B[39]', 'B[38]', 'B[37]', 'B[36]', 'B[35]', 'B[34]', 'B[33]', 'B[32]', 'B[31]', 'B[30]', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'CI'.
+Warning: In design 'CONTROL', output port 'ALUsrc1[2]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CONTROL', output port 'ALUsrc2[2]' is connected directly to 'logic 0'. (LINT-52)
+1

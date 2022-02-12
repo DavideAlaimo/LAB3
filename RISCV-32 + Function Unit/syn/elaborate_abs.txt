@@ -1,0 +1,248 @@
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine RISC_V line 334 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    OUT_PC_1_reg     | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 354 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+=================================================================================
+|     Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=================================================================================
+|       RD_1_reg        | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|     OPCODE_1_reg      | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   ADD_REG_WRITE_reg   | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|     OUT_PC_2_reg      | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|  OUT_REG_FILE1_1_reg  | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|  OUT_REG_FILE2_1_reg  | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|   OUT_IMM_GEN_1_reg   | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+| OUT_INSTR_FUNCT_1_reg | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|       RS1_1_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|       RS2_1_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+=================================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 389 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+================================================================================
+|    Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+| ADD_REG_WRITE_1_reg  | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+| OUT_ADD_BRANCH_1_reg | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|  OUT_ZERO_ALU_1_reg  | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| OUT_RESULT_ALU_1_reg | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|   RD_2_EX_MEM_reg    | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+================================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 404 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===================================================================================
+|      Register Name      |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===================================================================================
+|   ADD_REG_WRITE_2_reg   | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+| DATA_OUT_MEM_DATA_1_reg | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|  OUT_RESULT_ALU_2_reg   | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|     RD_3_MEM_WB_reg     | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===================================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 420 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     BRANCH1_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    MEM_READ1_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   MEM_WRITE1_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   MEM_TO_REG1_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     ALUop1_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   REG_WRITE1_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| MUX_TO_BRANCH1_reg  | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    ALU_src11_reg    | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|    ALU_src21_reg    | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|    EN_FUNCT1_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 439 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     BRANCH2_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   MEM_TO_REG2_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   REG_WRITE2_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| MUX_TO_BRANCH2_reg  | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine RISC_V line 464 in file
+		'../src/RISCV-DatapathPipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   MEM_TO_REG3_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   REG_WRITE3_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'RISC_V'.
+Information: Building the design 'PC_Register' instantiated from design 'RISC_V' with
+	the parameters "N=64". (HDL-193)
+
+Inferred memory devices in process
+	in routine PC_Register_N64 line 13 in file
+		'../src/PC_Register.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      DATA_reg       | Flip-flop |  63   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      DATA_reg       | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|    DATA_OUT_reg     | Flip-flop |  63   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    DATA_OUT_reg     | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'ZeroGenerating'. (HDL-193)
+
+Statistics for case statements in always block at line 31 in file
+	'../src/ZeroGenerating.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            37            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'MUX_2TO1' instantiated from design 'RISC_V' with
+	the parameters "N=64". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'Adder' instantiated from design 'RISC_V' with
+	the parameters "N=64". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'RegistersFile'. (HDL-193)
+
+Inferred memory devices in process
+	in routine RegistersFile line 173 in file
+		'../src/RegistersFile.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  DATA_REGISTER_reg  | Flip-flop | 2048  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+=======================================================
+| block name/line   | Inputs | Outputs | # sel inputs |
+=======================================================
+| RegistersFile/178 |   32   |   64    |      5       |
+| RegistersFile/179 |   32   |   64    |      5       |
+=======================================================
+Presto compilation completed successfully.
+Information: Building the design 'ImmediateGenerator'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'MUX_2TO1' instantiated from design 'RISC_V' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'ControlHazardUnit'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'AluControl'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'ALU'. (HDL-193)
+Warning:  ../src/ALU.vhd:23: The initial value for signal 'OUT_RESULT' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Statistics for case statements in always block at line 26 in file
+	'../src/ALU.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            36            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 81 in file
+	'../src/ALU.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            83            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'FunctionUnit'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'CONTROL'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'MUX_5TO1'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'ForwardingUnit'. (HDL-193)
+Warning:  ../src/ForwardingUnit.vhd:38: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 16 in file
+	'../src/ForwardingUnit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            38            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'HazardDetectionUnit'. (HDL-193)
+Warning:  ../src/HazardDetectionUnit.vhd:15: The initial value for signal 'cnt' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/HazardDetectionUnit.vhd:15: The initial value for signal 'cnt2' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Inferred memory devices in process
+	in routine HazardDetectionUnit line 36 in file
+		'../src/HazardDetectionUnit.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      cnt2_reg       | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|    EN_IF_ID_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    EN_ID_EX_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      EN_PC_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   MUX_BUBBLE_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       cnt_reg       | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'MUX_2TO1' instantiated from design 'RISC_V' with
+	the parameters "N=14". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'MUX_2TO1' instantiated from design 'RISC_V' with
+	the parameters "N=3". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'MUX_2TO1' instantiated from design 'RISC_V' with
+	the parameters "N=1". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'Register_N' instantiated from design 'RISC_V' with
+	the parameters "N=64". (HDL-193)
+
+Inferred memory devices in process
+	in routine Register_N_N64 line 13 in file
+		'../src/Register_N.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      DATA_reg       | Flip-flop |  64   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    DATA_OUT_reg     | Flip-flop |  64   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'COMPARE'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'CNT_2'. (HDL-193)
+
+Inferred memory devices in process
+	in routine CNT_2 line 17 in file
+		'../src/CNT_2.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       cnt_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+1

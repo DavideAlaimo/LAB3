@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+ENTITY AluControl IS
+PORT(ALUop : IN STD_LOGIC;
+     INSTR30 : IN STD_LOGIC;
+     FUNCT3 : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+     ALUoperation : OUT STD_LOGIC_VECTOR(2 DOWNTO 0));
+END ENTITY;
+
+ARCHITECTURE BEH OF AluControl IS
+BEGIN
+PROCESS(ALUop, FUNCT3)
+BEGIN
+IF(ALUop='1') THEN ALUoperation <= FUNCT3;
+ELSIF(ALUop='0') THEN ALUoperation <= "000"; 
+ELSE ALUoperation <="UUU";
+END IF;
+END PROCESS;
+END ARCHITECTURE;
